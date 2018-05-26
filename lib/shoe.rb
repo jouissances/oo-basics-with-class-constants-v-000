@@ -6,6 +6,7 @@ class Shoe
   BRANDS = BRANDS.uniq
 
   def initialize(brand)
+    @brand = brand
     if BRANDS.include?(brand)
       false 
     else 
